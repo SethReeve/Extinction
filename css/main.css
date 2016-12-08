@@ -1,0 +1,186 @@
+/******************
+Gen Custom
+Japanese Indigo-#223843
+Lust-#ea2b1f
+Lemon Lime-#e9ff00
+Isabelline-#f6f7eb
+Mango Tango-#ff8c42
+******************/
+
+
+@font-face {
+    font-family: 'fff_tusjbold';
+    src: url('../fonts/fff_tusj-webfont.woff2') format('woff2'),
+         url('../fonts/fff_tusj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'immortal_-_alternatesregular';
+    src: url('../fonts/immrtlt_-webfont.woff2') format('woff2'),
+         url('../fonts/immrtlt_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'immortalregular';
+    src: url('../fonts/immortal-webfont.woff2') format('woff2'),
+         url('../fonts/immortal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html {
+	background-color: #e9ff00;
+
+}
+
+body {
+	background-color: #ea2b1f;
+   
+
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/***************
+Text
+***************/
+
+
+h2 {
+	 font-family: 'fff_tusjbold';
+     letter-spacing: 0.1em;
+}
+
+h3 {
+	 font-family: 'fff_tusjbold';
+     color: #fff;
+     letter-spacing: 0.1em;
+	
+}
+h1 {
+	 font-family: 'fff_tusjbold';
+     letter-spacing: 0.1em;
+}
+
+p {
+	 font-family: 'immortalregular';
+}
+
+
+
+/*****
+Head
+*****/
+
+header {
+	text-align: center;
+
+}
+
+/*****
+Life Section
+*****/
+
+#life {
+    text-align: center;
+}
+
+#life .text-wrap {
+    float: left;
+    width: 60%;
+}
+
+#life img {
+    width: 25%;
+    margin-left: 5%;
+    height: auto;
+    float: right;
+}
+
+
+
+#life img {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+    padding: 10px 5px 10px 5px;
+
+}
+/*****
+Human Section
+*****/
+
+#human {
+    text-align: center;
+}
+
+#human p {
+   color: #f6f7eb;
+}
+
+#human .text-wrap-two {
+    float: left;
+    width: 60%;
+}
+
+
+#human img {
+    width: 25%;
+    margin-left: 5%;
+    height: auto;
+    float: right;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/********
+Colour
+********/
+
+#life {
+	background-color: #ff8c42 ;
+}
+
+#human {
+    background-color: #223843;
+}
+
+
+/********
+    Footer
+********/
+
+
+footer  p {
+    color: #e9ff00;
+     font-family: 'immortal_-_alternatesregular';
+}
+
+
+
+
+
+
+
+
